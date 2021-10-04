@@ -5,7 +5,7 @@ body {
 
 body {
 	margin: 0;
-	background: #517FE7;
+	background: #517fe7;
 	font-family: sans-serif;
 	font-weight: 100;
 }
@@ -13,6 +13,8 @@ body {
 .container {
 	position: absolute;
 
+	left: 50%;
+	transform: translate( -50%);
 }
 
 table {
